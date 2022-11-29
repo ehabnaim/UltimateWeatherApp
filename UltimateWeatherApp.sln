@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1704.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Heads", "Heads", "{EB6A65B9-5DF5-4A5B-9A8A-06B5DEEE60A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A5F82009-92D4-4803-B1D7-79CB8828B054}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{F496F02C-EAA5-44D3-8A8A-94504A32B35B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{E7BB928E-47E5-4C55-8CBC-9620D99034B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Presentation", "Presentation\Presentation.csproj", "{C78FAC43-F994-4BDE-B748-AFD5350E27FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UltimateWeatherApp.Android", "UltimateWeatherApp.Android\UltimateWeatherApp.Android.csproj", "{560959B5-7CA1-4C39-AE50-B7A586F1CFE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UltimateWeatherApp.IOS", "UltimateWeatherApp.IOS\UltimateWeatherApp.IOS.csproj", "{732C1A5C-30FC-4FCC-8375-749540D7D34A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{2DBB8485-4D7B-44E4-BA5C-C8A7340852BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F496F02C-EAA5-44D3-8A8A-94504A32B35B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F496F02C-EAA5-44D3-8A8A-94504A32B35B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F496F02C-EAA5-44D3-8A8A-94504A32B35B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F496F02C-EAA5-44D3-8A8A-94504A32B35B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7BB928E-47E5-4C55-8CBC-9620D99034B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7BB928E-47E5-4C55-8CBC-9620D99034B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7BB928E-47E5-4C55-8CBC-9620D99034B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7BB928E-47E5-4C55-8CBC-9620D99034B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C78FAC43-F994-4BDE-B748-AFD5350E27FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C78FAC43-F994-4BDE-B748-AFD5350E27FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C78FAC43-F994-4BDE-B748-AFD5350E27FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C78FAC43-F994-4BDE-B748-AFD5350E27FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{560959B5-7CA1-4C39-AE50-B7A586F1CFE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{560959B5-7CA1-4C39-AE50-B7A586F1CFE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{560959B5-7CA1-4C39-AE50-B7A586F1CFE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{560959B5-7CA1-4C39-AE50-B7A586F1CFE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{732C1A5C-30FC-4FCC-8375-749540D7D34A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{732C1A5C-30FC-4FCC-8375-749540D7D34A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{732C1A5C-30FC-4FCC-8375-749540D7D34A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{732C1A5C-30FC-4FCC-8375-749540D7D34A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DBB8485-4D7B-44E4-BA5C-C8A7340852BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DBB8485-4D7B-44E4-BA5C-C8A7340852BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DBB8485-4D7B-44E4-BA5C-C8A7340852BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DBB8485-4D7B-44E4-BA5C-C8A7340852BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E62FEB12-7279-4FE1-80C3-916F75CF7D75}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{560959B5-7CA1-4C39-AE50-B7A586F1CFE7} = {EB6A65B9-5DF5-4A5B-9A8A-06B5DEEE60A3}
+		{732C1A5C-30FC-4FCC-8375-749540D7D34A} = {EB6A65B9-5DF5-4A5B-9A8A-06B5DEEE60A3}
+	EndGlobalSection
+EndGlobal
